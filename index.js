@@ -671,14 +671,14 @@ const firebaseConfig = {
   // WhatsApp integration for credits
   function redirectToWhatsAppForCredits() {
     const randomNumber = state.whatsappNumbers[Math.floor(Math.random() * state.whatsappNumbers.length)];
-      const message = "Olá, venho da TokenStein! Gostaria de um link de pagamento para obter tokens! O nome que irá aparecer no meu pagamento é: (Digite seu nome) e meu email da TokenStein é: (Digite seu email aqui) | | Hello, I'm from TokenStein! I would like a payment link to get tokens! The name that will appear on my payment is: (Enter your name) and my TokenStein email is: (Enter your email here)";
+      const message = "Olá, venho da TokenStein! Gostaria de um link de pagamento para obter tokens! O nome que irá aparecer no meu pagamento é: (Digite seu nome) e meu email da TokenStein é: (Digite seu email aqui)";
     window.open(`https://wa.me/${randomNumber}?text=${encodeURIComponent(message)}`, '_blank');
   }
   
   // WhatsApp integration for points exchange
   function redirectToRandomWhatsApp() {
     const randomNumber = state.whatsappNumbers[Math.floor(Math.random() * state.whatsappNumbers.length)];
-    const message = `Olá! Gostaria de trocar meus pontos do Imperium Tokens.`;
+    const message = `Olá, venho da TokenStein. Gostaria de trocar meus pontos por: (Escolha entre trocar por dinheiro ou cupom de desconto na loja). E meu de usuário da TokenStein é: `;
     window.open(`https://wa.me/${randomNumber}?text=${encodeURIComponent(message)}`, '_blank');
   }
   
