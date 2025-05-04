@@ -23,7 +23,7 @@ const firebaseConfig = {
         name: "Julius Caesar",
         price: 8,
         rarity: "Common",
-        description: "The founder of the Roman Empire. His token grants +5% to all future purchases.",
+        description: "O pré fundador de Roma. Compre esse token para iniciar sua jornada e ganhar seus primeiros pontos.",
         image: "images/cyberjuliocesar.png"
       },
       {
@@ -31,7 +31,7 @@ const firebaseConfig = {
         name: "Augustus",
         price: 16,
         rarity: "Uncommon",
-        description: "First Roman Emperor. Holding this token increases your score multiplier by 1.2x.",
+        description: "Primeiro imperador de Roma, criando o período chamado Pax Romana. Esse é o token que rende mais rápido que os demais.",
         image: "images/cyberaugustus.png"
       },
       {
@@ -39,7 +39,7 @@ const firebaseConfig = {
         name: "Nero",
         price: 40,
         rarity: "Rare",
-        description: "Infamous emperor. This volatile token can randomly double or halve in value.",
+        description: "Imperador considerado tirano e cruel por muitos historiedades. Compradores desse token, além de receberem seu lucro, concorrem á premiações em dinheiro todo mês.",
         image: "images/cybernero.png"
       },
       {
@@ -47,7 +47,7 @@ const firebaseConfig = {
         name: "Trajan",
         price: 80,
         rarity: "Epic",
-        description: "Under his rule, Rome reached its greatest territorial extent.",
+        description: "Considerado o imperador que entregou o ápice de Roma. Compradores desse token, além de receberem seu lucro, concorrem á ganhar cupons de desconto equivalente ao quanto gastou comprando esse token. ",
         image: "images/cybertrajano.png"
       },
       {
@@ -55,7 +55,7 @@ const firebaseConfig = {
         name: "Marcus Aurelius",
         price: 400,
         rarity: "Legendary",
-        description: "The philosopher emperor. This token provides wisdom and steady score growth.",
+        description: "Imperador e filósofo, criador do estoicismo. Esse token rende 50 reais de lucro ao valorizar, e compradores concorrem todo mês á um prêmio de R$1.000,00 em dinheiro ou R$2.000,00 em desconto.",
         image: "images/cyberaurelio.png"
       },
       {
@@ -63,7 +63,7 @@ const firebaseConfig = {
         name: "Constantine",
         price: 800,
         rarity: "Mythic",
-        description: "First Christian emperor. This token brings stability to your portfolio.",
+        description: "Primeiro imperador de Roma considerado cristão. Este token lhe gera benefícios customizados, personalizados pela equipe Stein.",
         image: "images/cyberconstantino.png"
       }
     ],
