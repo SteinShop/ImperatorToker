@@ -48,7 +48,7 @@ const firebaseConfig = {
         price: 80,
         rarity: "Epic",
         description: "Under his rule, Rome reached its greatest territorial extent.",
-        image: "https://i.imgur.com/9zQYt9d.png"
+        image: "images/cybertrajano.png"
       },
       {
         id: 5,
@@ -56,7 +56,7 @@ const firebaseConfig = {
         price: 400,
         rarity: "Legendary",
         description: "The philosopher emperor. This token provides wisdom and steady score growth.",
-        image: "https://i.imgur.com/3sZzC1m.png"
+        image: "images/cyberaurelio.png"
       },
       {
         id: 6,
@@ -64,7 +64,7 @@ const firebaseConfig = {
         price: 800,
         rarity: "Mythic",
         description: "First Christian emperor. This token brings stability to your portfolio.",
-        image: "https://i.imgur.com/5kShhUD.png"
+        image: "images/cyberconstantino.png"
       }
     ],
     whatsappNumbers: [
