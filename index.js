@@ -40,7 +40,7 @@ const firebaseConfig = {
         price: 40,
         rarity: "Rare",
         description: "Infamous emperor. This volatile token can randomly double or halve in value.",
-        image: "https://i.imgur.com/8nKL7Uf.png"
+        image: "images/cybernero.png"
       },
       {
         id: 4,
