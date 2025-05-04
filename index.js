@@ -411,7 +411,7 @@ const firebaseConfig = {
     const totalPrice = token.price * quantity;
   
     if (state.currentUser.credits < totalPrice) {
-      alert('Not enough credits! Click Get Credits to benefit from your tokens!');
+      alert('Você não tem créditos o suficiente. Fale com nossa equipe clicando em Obter Créditos!');
       return;
     }
   
