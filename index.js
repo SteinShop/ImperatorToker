@@ -69,8 +69,13 @@ const firebaseConfig = {
     ],
     whatsappNumbers: [
       '554891002305',
-      '554896017883',
-      '554888398770'
+      '554891809745',
+      '554888398770',
+        '554884183802',
+        '554891404663',
+        '5548984330340'
+        
+        
     ]
   };
   
@@ -406,7 +411,7 @@ const firebaseConfig = {
     const totalPrice = token.price * quantity;
   
     if (state.currentUser.credits < totalPrice) {
-      alert('Not enough credits!');
+      alert('Not enough credits! Click Get Credits to benefit from your tokens!');
       return;
     }
   
@@ -666,7 +671,7 @@ const firebaseConfig = {
   // WhatsApp integration for credits
   function redirectToWhatsAppForCredits() {
     const randomNumber = state.whatsappNumbers[Math.floor(Math.random() * state.whatsappNumbers.length)];
-    const message = "Olá, venho da ImperiumTokens! Gostaria de enviar meu comprovante de pagamento para obter créditos!";
+      const message = "Olá, venho da TokenStein! Gostaria de um link de pagamento para obter tokens! O nome que irá aparecer no meu pagamento é: (Digite seu nome) e meu email da TokenStein é: (Digite seu email aqui) | | Hello, I'm from TokenStein! I would like a payment link to get tokens! The name that will appear on my payment is: (Enter your name) and my TokenStein email is: (Enter your email here)";
     window.open(`https://wa.me/${randomNumber}?text=${encodeURIComponent(message)}`, '_blank');
   }
   
